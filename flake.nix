@@ -1,5 +1,5 @@
 {
-  
+
 
   # Declaration of external resources
   # =================================
