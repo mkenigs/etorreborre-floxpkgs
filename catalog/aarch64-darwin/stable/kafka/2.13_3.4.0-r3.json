@@ -1,0 +1,68 @@
+{
+  "build": {},
+  "element": {
+    "active": true,
+    "attrPath": [
+      "packages",
+      "aarch64-darwin",
+      "kafka"
+    ],
+    "originalUrl": null,
+    "storePaths": [
+      "/nix/store/6wrrabvbdcpkbj3aadmnyn41mrd8l8bg-kafka-2.13_3.4.0-r3"
+    ],
+    "url": "git+ssh://git@github.com/etorreborre/kafka.git?rev=12992964d4c3a3276b1d353ff55999bc11a728a3"
+  },
+  "eval": {
+    "attrPath": [
+      "packages",
+      "aarch64-darwin",
+      "kafka"
+    ],
+    "drvPath": "/nix/store/cx3hrrqrhcsm6qzrymp9wpkm4m7c9hbx-kafka-2.13_3.4.0-r3.drv",
+    "meta": {
+      "available": true,
+      "broken": false,
+      "description": "kafka scripts",
+      "insecure": false,
+      "name": "kafka-2.13_3.4.0-r3",
+      "outputsToInstall": [
+        "out"
+      ],
+      "position": "/nix/store/0r7ya8zj224lpqps1hixw390sjrsifl9-source/pkgs/kafka/default.nix:31",
+      "unfree": false,
+      "unsupported": false
+    },
+    "name": "kafka-2.13_3.4.0-r3",
+    "namespace": [
+      "kafka"
+    ],
+    "outputs": {
+      "out": "/nix/store/6wrrabvbdcpkbj3aadmnyn41mrd8l8bg-kafka-2.13_3.4.0-r3"
+    },
+    "pname": "kafka",
+    "stability": "stable",
+    "system": "aarch64-darwin",
+    "version": "2.13_3.4.0-r3"
+  },
+  "source": {
+    "locked": {
+      "lastModified": 1677232191,
+      "narHash": "sha256-k64ItsrRl0zxKxAm89MyJ5huAy+GCf2UVHTwhtLjLso=",
+      "rev": "12992964d4c3a3276b1d353ff55999bc11a728a3",
+      "revCount": 3,
+      "type": "git",
+      "url": "ssh://git@github.com/etorreborre/kafka.git"
+    },
+    "original": {
+      "rev": "12992964d4c3a3276b1d353ff55999bc11a728a3",
+      "type": "git",
+      "url": "ssh://git@github.com/etorreborre/kafka.git"
+    },
+    "remote": {
+      "rev": "12992964d4c3a3276b1d353ff55999bc11a728a3",
+      "type": "git",
+      "url": "ssh://git@github.com/etorreborre/kafka.git"
+    }
+  }
+}
